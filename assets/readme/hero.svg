@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">DataWhale 学习大本营</title>
+  <desc id="heroDesc">左侧为项目名称与说明：多门课程的学习记录，先固定教材版本与 Task 范围，再分别记录课程要求核对与独立掌握验收。右侧为真实记录结构：固定教材版本 3ba4823、章节标签 F0 P1 D1 I1，以及课程要求核对与独立掌握验收两条平行轨道。</desc>
+
+  <rect width="1200" height="400" rx="24" fill="#FBF8F1"/>
+
+  <g id="title-block" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
+    <text x="56" y="92" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="2" fill="#7A7466">DATAWHALE · EASY DATA × AI</text>
+    <text x="56" y="168" font-size="52" font-weight="700" fill="#1B1A17">DataWhale</text>
+    <text x="56" y="228" font-size="52" font-weight="700" fill="#1B1A17">学习大本营</text>
+    <text x="56" y="286" font-size="20" fill="#3D3A33">多门课程的学习记录：先固定教材版本与 Task 范围，</text>
+    <text x="56" y="316" font-size="20" fill="#3D3A33">再分别记录课程要求核对与独立掌握验收。</text>
+    <text x="56" y="360" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" fill="#7A7466">9 TASKS · 2026-11-16 → 12-12</text>
+  </g>
+
+  <g id="record-structure" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
+    <rect x="676" y="44" width="468" height="312" rx="12" fill="#F5F0E4" stroke="#E2DACA" stroke-width="1.5"/>
+
+    <text x="704" y="84" font-size="18" letter-spacing="1" fill="#7A7466">学习基准 · BASELINE</text>
+    <text x="704" y="118" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22" font-weight="600" fill="#1B1A17">3ba4823</text>
+    <text x="812" y="118" font-size="18" fill="#7A7466">固定教材版本</text>
+
+    <line x1="704" y1="140" x2="1116" y2="140" stroke="#E2DACA" stroke-width="1.5"/>
+
+    <g id="chapter-chips" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" fill="#1B1A17">
+      <rect x="704" y="156" width="88" height="42" rx="6" fill="#EFE9DB" stroke="#DCD3C0" stroke-width="1.5"/>
+      <text x="748" y="184" text-anchor="middle">F0</text>
+      <rect x="802" y="156" width="88" height="42" rx="6" fill="#EFE9DB" stroke="#DCD3C0" stroke-width="1.5"/>
+      <text x="846" y="184" text-anchor="middle">P1</text>
+      <rect x="900" y="156" width="88" height="42" rx="6" fill="#EFE9DB" stroke="#DCD3C0" stroke-width="1.5"/>
+      <text x="944" y="184" text-anchor="middle">D1</text>
+      <rect x="998" y="156" width="88" height="42" rx="6" fill="#EFE9DB" stroke="#DCD3C0" stroke-width="1.5"/>
+      <text x="1042" y="184" text-anchor="middle">I1</text>
+    </g>
+
+    <line x1="704" y1="218" x2="1116" y2="218" stroke="#E2DACA" stroke-width="1.5"/>
+
+    <g id="track-requirements">
+      <circle cx="712" cy="261" r="5" fill="#F5F0E4" stroke="#BE5A2E" stroke-width="2.5"/>
+      <text x="730" y="268" font-size="18" fill="#3D3A33">课程要求核对</text>
+      <line x1="880" y1="268" x2="1116" y2="268" stroke="#D8D0BE" stroke-width="1.5"/>
+      <circle cx="904" cy="268" r="6" fill="#F5F0E4" stroke="#BE5A2E" stroke-width="2.5"/>
+      <circle cx="968" cy="268" r="6" fill="#F5F0E4" stroke="#BE5A2E" stroke-width="2.5"/>
+      <circle cx="1032" cy="268" r="6" fill="#F5F0E4" stroke="#BE5A2E" stroke-width="2.5"/>
+      <circle cx="1096" cy="268" r="6" fill="#F5F0E4" stroke="#BE5A2E" stroke-width="2.5"/>
+    </g>
+
+    <g id="track-mastery">
+      <circle cx="712" cy="319" r="5" fill="#2F5D50"/>
+      <text x="730" y="326" font-size="18" fill="#3D3A33">独立掌握验收</text>
+      <line x1="880" y1="326" x2="1116" y2="326" stroke="#D8D0BE" stroke-width="1.5"/>
+      <circle cx="904" cy="326" r="6" fill="#2F5D50"/>
+      <circle cx="968" cy="326" r="6" fill="#2F5D50"/>
+      <circle cx="1032" cy="326" r="6" fill="#2F5D50"/>
+      <circle cx="1096" cy="326" r="6" fill="#2F5D50"/>
+    </g>
+
+    <g id="track-links" stroke="#DCD3C0" stroke-width="1.5" stroke-dasharray="3 4">
+      <line x1="904" y1="268" x2="904" y2="326"/>
+      <line x1="968" y1="268" x2="968" y2="326"/>
+      <line x1="1032" y1="268" x2="1032" y2="326"/>
+      <line x1="1096" y1="268" x2="1096" y2="326"/>
+    </g>
+  </g>
+</svg>
