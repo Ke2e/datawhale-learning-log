@@ -18,15 +18,15 @@
 - [F0：课前导读](<upstream/docs/base_knowledge/F0 课程稿：课前闲聊 —— OpenClaw 为什么越用越好用？.md>)。
 - [D1：大模型 API 基础](<upstream/docs/dev/D1 课程稿：大模型 API 工程化基础.md>)。
 - [P5：综合案例与度量](<upstream/docs/pm/P5 课程稿：综合案例与度量.md>)。
-- [Task01 笔记模板](note/task01.md)。
+- [Task01 笔记与陪练记录](note/task01/task01.md)。
 
 ## 本期 Task 索引
 
-依据：Asize 提供的学习营排期图。日期按 2026 年、Asia/Shanghai 记录，截止时刻均为凌晨 03:00。此表只定位学习范围和笔记，不维护第二套完成状态；正式任务与进度以后使用 [学习主库 Issues](https://github.com/Ke2e/datawhale-learning-log/issues)。目前未创建对应 Issue，也未开始验收。
+依据：Asize 提供的学习营排期图。日期按 2026 年、Asia/Shanghai 记录，截止时刻均为凌晨 03:00。此表只定位学习范围和笔记，不维护第二套完成状态；正式任务与进度使用 [学习主库 Issues](https://github.com/Ke2e/datawhale-learning-log/issues)。2026-11-17 已按授权创建全部 9 个 Task Issue（[#1–#9](https://github.com/Ke2e/datawhale-learning-log/issues)），每条含“课程要求核对 / 独立掌握”双验收清单；F0/F2 文章陪练记录在 Task01 笔记中，尚无独立掌握通过结论。
 
 | Task | 学习范围（以 GitHub 章节为准） | 截止时间 | 笔记 |
 |---|---|---|---|
-| 01 | 环境准备与课前导读 | 2026-11-18 03:00 | [Task01](note/task01.md) |
+| 01 | 环境准备与 F0–F2 导读（范围由 Asize 后续确认） | 2026-11-18 03:00 | [Task01](note/task01/task01.md) |
 | 02 | P1：Agent 场景识别；D1：大模型 API 基础；I1：AI 原生数据库基础 | 2026-11-21 03:00 | 按需创建 |
 | 03 | P2：RAG 产品设计；I2：向量数据库与 RAG | 2026-11-24 03:00 | 按需创建 |
 | 04 | D2：统一 AI Native 数据层实战；I3：SQL × AI / AI Functions 的设计与执行 | 2026-11-27 03:00 | 按需创建 |
@@ -44,7 +44,8 @@
 
 - 默认自学、记笔记和尝试在先，再通过“事实 → 决策 → 反事实”逐题诊断；卡点按需教学。
 - 课程要求核对与独立掌握分别记录。提示后转入补强，换场景或关键变更复验；工程能力需要真实操作及观察证据。
-- 原始笔记由 Asize 保留；助手整理的验收记录经确认后追加。扩展章节与实验逐项确认，不自动展开。
-- Task01 当前只有模板，尚未确定个人验收范围；不将 F1/F2、OpenClaw 安装、模型 Key 或数据库配置自动列为必做。
+- 笔记按课程文章编号和标题分节，每篇末尾保留有来源的“课后行动”，由 Asize 填写；课后习题由 Asize 自主完成，助手不代答。
+- 原始笔记和已写的行动回答保留；文章陪练可直接追加问题、Asize 原始作答及单独标注的助手反馈，通过结论和理解修订仍待确认。扩展与实验逐项确认。
+- Asize 已说明 Task01 导读为 F0–F2、环境准备完成；后续计划 F0/F2 陪练，先 F0 后 F2，收束后再整理文笔化笔记。F0 Q1 经 Asize 同意（2026-11-17）重新呈现并附题意说明，陪练逐题推进；不额外要求安装 OpenClaw、配置模型 Key 或数据库。
 
-完整决定、来源优先级与授权边界见 [需求与决策记录](../.claude/artifacts/designs/datawhale-learning-hub.md)；术语见 [GLOSSARY.md](../GLOSSARY.md)。本次仅做课程接入，不安装依赖、不填写学习答案、不创建 Issue、不修改教学 skill、不提交或推送 Git。
+完整决定、来源优先级与授权边界见 [需求与决策记录](../.claude/artifacts/designs/datawhale-learning-hub.md)；术语见 [GLOSSARY.md](../GLOSSARY.md)。2026-11-17：打卡规则按 Asize 确认回写（完全自主、提交笔记即可），全部 Task Issue 已创建，成稿位置定为 `note/taskXX/`（每 Task 一个文件夹，用于掘金等平台发文）。仍不代填行动或习题答案、不重复安装环境、不修改教学 skill、不提交或推送 Git；知识陪练逐题进行，由 Asize 启动与推进。
