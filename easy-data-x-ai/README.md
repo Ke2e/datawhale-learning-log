@@ -19,6 +19,7 @@
 - [D1：大模型 API 基础](<upstream/docs/dev/D1 课程稿：大模型 API 工程化基础.md>)。
 - [P5：综合案例与度量](<upstream/docs/pm/P5 课程稿：综合案例与度量.md>)。
 - [Task01 笔记与陪练记录](note/task01/task01.md)。
+- [Task02 笔记](note/task02/task02.md)。
 
 ## 本期 Task 索引
 
@@ -27,7 +28,7 @@
 | Task | 学习范围（以 GitHub 章节为准） | 截止时间 | 笔记 |
 |---|---|---|---|
 | 01 | 环境准备与 F0–F2 导读（范围由 Asize 后续确认） | 2026-11-18 03:00 | [Task01](note/task01/task01.md) |
-| 02 | P1：Agent 场景识别；D1：大模型 API 基础；I1：AI 原生数据库基础 | 2026-11-21 03:00 | 按需创建 |
+| 02 | P1：Agent 场景识别；D1：大模型 API 基础；I1：AI 原生数据库基础 | 2026-11-21 03:00 | [Task02](note/task02/task02.md) |
 | 03 | P2：RAG 产品设计；I2：向量数据库与 RAG | 2026-11-24 03:00 | 按需创建 |
 | 04 | D2：统一 AI Native 数据层实战；I3：SQL × AI / AI Functions 的设计与执行 | 2026-11-27 03:00 | 按需创建 |
 | 05 | P3：记忆系统设计；I4：File SQL for AI Agent | 2026-11-30 03:00 | 按需创建 |
