@@ -40,7 +40,9 @@ Single-context: root `GLOSSARY.md` + `docs/adr/`. See `docs/agents/domain.md`.
 
 ### 学习方案记录
 
-继续课程规划、Task 验收或扩展实验前，读取 `.claude/artifacts/designs/datawhale-learning-hub.md`，核对已确认决定、来源与审批边界。
+继续课程规划、文章陪练、Task 验收或扩展实验前，读取[学习方案](.claude/artifacts/designs/datawhale-learning-hub.md)，核对已确认决定、来源与审批边界。
+
+Easy Data × AI 开始或恢复陪练时，先读 `easy-data-x-ai/upstream/docs/` 的对应文章和 `easy-data-x-ai/note/taskXX/taskXX.md`；暂停或收束时，把已有证据、待测或待复验点及下次起点留在同一份 Task 笔记，掌握结论经 Asize 确认后再写。
 
 ### 个人化笔记
 
